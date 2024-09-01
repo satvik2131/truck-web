@@ -1847,7 +1847,7 @@ a {
   font-family: Plus Jakarta Display, sans-serif;
 }
 a:hover {
-  color: #19854c;
+  color: var(--primary-text);
 }
 ul,
 ol {
@@ -3422,6 +3422,7 @@ figcaption {
   align-items: start;
   display: grid;
 }
+
 .heading-style-h4 {
   font-size: 2rem;
   font-weight: 700;
@@ -3580,7 +3581,7 @@ figcaption {
 }
 .nav-link:hover,
 .nav-link.w--current {
-  color: var(--primary);
+  color: var(--primary-text);
 }
 .navbar-buttons {
   grid-column-gap: 1rem;

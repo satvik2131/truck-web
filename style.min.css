@@ -2458,7 +2458,7 @@ figcaption {
 }
 
 .text {
-  font-size: 16px; /* Adjust text size as needed */
+  font-size: 18px; /* Adjust text size as needed */
   color: var(--primary-text);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;

@@ -273,6 +273,9 @@ pre.w-code-block code {
 }
 
 .w-webflow-badge > img {
+  visibility: visible !important;
+  opacity: 1 !important;
+  vertical-align: middle !important;
   display: none;
 }
 h1,

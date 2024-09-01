@@ -1789,7 +1789,7 @@ textarea.w-select {
 }
 :root {
   --primary: #0051ff;
-  --midnight-blue: #0b3954;
+  --primary-text: #fff;
   --sea-green: #157944;
   --snow: #fffbff;
   --bg-grey: #f0f0f0;
@@ -2006,9 +2006,9 @@ figcaption {
   width: 2rem;
   height: 2rem;
 }
-.button-yellow-solid {
+.button-primary-solid {
   background-color: var(--primary);
-  color: var(--midnight-blue);
+  color: var(--primary-text);
   text-align: center;
   border-radius: 10px;
   justify-content: center;
@@ -2580,7 +2580,7 @@ figcaption {
 }
 .button-secondary-yellow {
   border: 0.125rem solid var(--primary);
-  color: var(--primary);
+  color: var(--primary-text);
   text-align: center;
   background-color: #0000;
   border-radius: 10px;
@@ -2814,7 +2814,7 @@ figcaption {
   text-decoration: none;
   transition: box-shadow 0.3s;
   display: flex;
-  box-shadow: 4px 4px 1px 1px #0051ff;
+  box-shadow: 4px 4px 1px 1px #0051;
 }
 .services-item:hover {
   box-shadow: 10px 41px 60px #a0a5b117;
@@ -4374,7 +4374,7 @@ figcaption {
   align-items: center;
   display: flex;
 }
-.button-yellow-solid-2 {
+.button-primary-solid-2 {
   color: #0b3954;
   text-align: center;
   background-color: #f7d63d;
@@ -4388,7 +4388,7 @@ figcaption {
   font-size: 2rem;
 }
 .text-color-blue {
-  color: var(--midnight-blue);
+  color: var(--primary-text);
 }
 .contact-details {
   grid-column-gap: 1rem;

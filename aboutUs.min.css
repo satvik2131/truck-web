@@ -1811,7 +1811,7 @@ textarea.w-select {
 }
 :root {
   --primary: #0051ff;
-  --midnight-blue: #0b3954;
+  --primary-text: #fff;
   --sea-green: #157944;
   --snow: #fffbff;
   --bg-grey: #f0f0f0;
@@ -2030,7 +2030,7 @@ figcaption {
 }
 .button-yellow-solid {
   background-color: var(--primary);
-  color: var(--midnight-blue);
+  color: var(--primary-text);
   text-align: center;
   border-radius: 10px;
   justify-content: center;
@@ -2602,7 +2602,7 @@ figcaption {
 }
 .button-secondary-yellow {
   border: 0.125rem solid var(--primary);
-  color: var(--primary);
+  color: var(--primary-text);
   text-align: center;
   background-color: #0000;
   border-radius: 10px;
@@ -4410,7 +4410,7 @@ figcaption {
   font-size: 2rem;
 }
 .text-color-blue {
-  color: var(--midnight-blue);
+  color: var(--primary-text);
 }
 .contact-details {
   grid-column-gap: 1rem;

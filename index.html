@@ -148,14 +148,16 @@
               aria-current="page"
               class="brand-logo w-nav-brand w--current"
             >
-              <div class="">
+              <div class="logo-text-container">
                 <img
                   src="./logo.png"
                   loading="lazy"
                   width="150"
+                  class="logo"
                   sizes="(max-width: 479px) 100vw, (max-width: 991px) 200px, 13vw"
                   alt=""
                 />
+                <p class="text">Lamar&apos;s Truck Sales</p>
               </div>
             </a>
             <nav role="navigation" class="nav-menu w-nav-menu">
@@ -213,7 +215,7 @@
                     </div>
                   </div>
                   <p class="text-size-medium-2 text-color-white">
-                    At Lamar's Truck Sales, we specialize in offering
+                    At Lamar&apos;s Truck Sales, we specialize in offering
                     high-quality, reliable used trucks that fit your needs and
                     budget.
                   </p>
@@ -471,7 +473,7 @@
           <div class="cta-button">
             <button>DOWNLOAD GUIDE</button>
             <p>
-              By clicking on 'Download' you are agreeing to our
+              By clicking on &apos;Download&apos; you are agreeing to our
               <a href="#">privacy policy</a>.
             </p>
           </div>
@@ -1549,7 +1551,7 @@
               <div class="banner10_content">
                 <div class="footer3_bottom-wrapper">
                   <div class="footer3_credit-text">
-                    © 2024 Lamar's Truck Sales. All right reserved.
+                    © 2024 Lamar&apos;s Truck Sales. All right reserved.
                   </div>
                 </div>
                 <div class="w-layout-grid footer3_legal-list">
@@ -1618,7 +1620,7 @@
         var wordWrap = tricksWord.item(i);
         wordWrap.innerHTML = wordWrap.innerHTML.replace(
           /(^|<\/?[^>]+>|\s+)([^\s<]+)/g,
-          '$1<span class="tricksword">$2</span>'
+          &apos;$1<span class="tricksword">$2</span>&apos;
         );
       }
 
@@ -1627,7 +1629,7 @@
         var letterWrap = tricksLetter.item(i);
         letterWrap.innerHTML = letterWrap.textContent.replace(
           /\S/g,
-          "<span class='letter'>$&</span>"
+          "<span class=&apos;letter&apos;>$&</span>"
         );
       }
       // Copyright end

@@ -2445,6 +2445,38 @@ figcaption {
   margin-right: 0;
 }
 
+/* Logo text container */
+.logo-text-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  flex-wrap: wrap; /* Allow items to wrap if needed */
+  gap: 8px; /* Space between items, instead of using margin-right */
+}
+
+.logo {
+  font-size: 24px; /* Adjust icon size as needed */
+}
+
+.text {
+  font-size: 16px; /* Adjust text size as needed */
+  color: var(--primary-text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 700;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 600px) {
+  .logo-text-container {
+    flex-direction: column; /* Stack items vertically on small screens */
+    align-items: flex-start; /* Align items to the start of the container */
+  }
+
+  .logo {
+    margin-bottom: 0px; /* Space between icon and text when stacked */
+  }
+}
+
 /* cta content */
 body {
   margin: 0;

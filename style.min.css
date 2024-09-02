@@ -1,3 +1,20 @@
+.logo_text {
+  font-size: 27px !important;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .logo_text {
+    display: none;
+    font-size: 21px !important;
+    font-weight: 700;
+  }
+
+  .navbar-flexbox {
+    margin-top: 30px;
+  }
+}
+
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -2464,6 +2481,11 @@ html {
   text-decoration: none;
   font-size: 16px;
 }
+/* 
+.page-wrapper {
+  margin-top: 10px;
+} */
+
 .phone-icon {
   display: inline-block;
   width: 20px;
@@ -2507,7 +2529,7 @@ html {
   font-weight: 700;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .logo-text-container {
     flex-direction: column; /* Stack items vertically on small screens */
     align-items: flex-start; /* Align items to the start of the container */
@@ -2522,14 +2544,20 @@ html {
   }
 
   .section-header {
-    height: 65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 8rem !important;
+    padding-bottom: 7rem !important;
   }
 }
 
 @media screen and (min-width: 600px) {
-  .section-header {
-    height: 110vh;
-  }
+ 
+  /* .section-header {
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+  } */
 }
 
 /* cta content */
@@ -2544,11 +2572,11 @@ body {
   align-items: center;
   background-color: var(--snow); /* Blue background color */
   color: #000; /* White text color */
-  padding: 40px; /* Increased padding for more height */
+  padding: 40px 120px; /* Increased padding for more height */
   width: 100%; /* Full width */
   box-sizing: border-box;
   flex-wrap: wrap;
-  min-height: 300px; /* Ensures a larger height */
+  min-height: 250px; /* Ensures a larger height */
 }
 
 .cta-content {
@@ -2557,13 +2585,15 @@ body {
 }
 
 .cta-content h2 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin: 0 0 10px;
 }
 
 .cta-content p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
   margin: 0;
+  color: #171717;
 }
 
 .cta-button {
@@ -2587,6 +2617,16 @@ body {
   .cta-container {
     flex-direction: column;
     text-align: center;
+    gap: 20px;
+    padding: 40px;
+  }
+
+  .cta-container .cta-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .cta-container .cta-content p {
+    font-size: 1rem;
   }
 
   .cta-button {
@@ -3784,9 +3824,10 @@ body {
   flex-direction: column;
   justify-content: center;
   padding-top: 10rem;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
   display: flex;
 }
+
 .dropdown-list-2.w--open {
   color: #000;
   background-color: #fff;

@@ -1737,7 +1737,8 @@ textarea.w-select {
 :root {
   --primary: #0051ff;
   --primary-text: #fff;
-  --sea-green: #157944;
+  --primary-text-dark: #333333;
+  --sea-green: #0051ff;
   --snow: #fffbff;
   --bg-grey: #f0f0f0;
 }
@@ -1953,9 +1954,21 @@ figcaption {
   width: 2rem;
   height: 2rem;
 }
-.button-yellow-solid {
+
+.button-primary-solid {
   background-color: var(--primary);
   color: var(--primary-text);
+  text-align: center;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem 1.75rem;
+  font-weight: 600;
+}
+
+.button-yellow-solid {
+  background-color: var(--snow);
+  color: var(--primary-text-dark);
   text-align: center;
   border-radius: 10px;
   justify-content: center;
@@ -2523,7 +2536,7 @@ figcaption {
   font-weight: 400;
 }
 .button-green-solid:hover {
-  color: var(--primary);
+  color: var(--primary-text);
 }
 .button-secondary-yellow {
   border: 0.125rem solid var(--primary);
